@@ -1,0 +1,7 @@
+---
+- name: Install Eclipse
+  ansible.builtin.dnf:
+    name:
+      - eclipse
+    state: latest
+  become: true

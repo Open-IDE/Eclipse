@@ -1,0 +1,5 @@
+---
+- set_fact:
+    source: package
+
+- include_tasks: '{{ source }}/main'
